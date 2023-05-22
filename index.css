@@ -1,0 +1,125 @@
+.header{
+	background: #FF0000;
+	font-size: 36px;
+	font-weight: bold;
+	padding: 30px 80px;
+	text-align: center;
+}
+ .block{
+	background: #FF002E;
+	font-size:20px;
+	padding: 20px 30px;
+	width: 372px;
+	hyphens: 162px
+	text-align: center; 
+	
+}
+
+.flex{
+	display: flex;
+	gap:20px;
+	justify-content: space-between;
+}
+.word{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	gap:50px;
+	width: 1000px;
+}
+.button {
+	background: #3D69DB;
+	font-size: 36px;
+	width: 1000px;
+	font-weight: bold;
+	padding: 30px 80px;
+	margin: 50px auto;
+	text-align: center;
+
+}
+.hero{
+	background: #B84351;
+	font-size:55px;
+	font-weight: bold;
+	padding: 30px 80px;
+	text-align: center;
+
+}
+.parents{
+	max-width: 601px;
+	background: #FFC804;
+	padding: 15px;
+}
+.one{
+	max-width: 558px;
+	font-size: 21px;
+}
+.two{
+	margin-top: 30px;
+	max-width: 558px;
+	font-size: 21px;
+}
+.friends{
+	max-width: 623px;
+	background: #EED600;
+	padding: 15px;
+}
+.three{
+	max-width: 558px;
+	font-size: 21px;
+}
+.four{
+	margin-top: 30px;
+	max-width: 598px;
+	font-size: 21px;
+}
+.car{
+	background: #09A6FF;
+	font-size: 36px;
+	font-weight: bold;
+	padding: 10px 80px;
+	text-align: center;
+}
+.five{
+	display: flex;
+	gap:20px;
+}
+.six{
+	display: flex;
+	gap:20px;
+	text-align: center;
+
+}
+.seven{
+	display: flex;
+	gap:20px;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+}
+
+ul{
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	background: #09A6FF;
+	padding: 60px;
+}
+
+li{
+	font-size: 36px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+li:hover{
+	color: red;
+	background: black;
+	padding: 10px;
+	border-radius: 10%;
+}
+img{
+	cursor: pointer;
+}
